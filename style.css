@@ -18,7 +18,7 @@ margin-right: 30px;
 
 }
 
-.mainCard{
+#mainCard{
 
     display: flex;
     justify-content: space-evenly;
