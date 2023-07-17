@@ -42,9 +42,9 @@ function onLoadCartNumbers() {
   }
 }
 
+    var cartlist = []
 function cartNumber(self) {
   if (localStorage.key("cart")) {
-    var cartlist = []
   }
   var cartlist = JSON.parse(localStorage.getItem("cart"))
   self = self.parentNode.children;
