@@ -81,9 +81,6 @@ function cartNumber(self) {
   //  setitems(dat)
 }
 
-function setitems(dat) {
-  console.log("inside of setitem function");
-  console.log("my product is ", dat);
-}
+
 
 onLoadCartNumbers();
